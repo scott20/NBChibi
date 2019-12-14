@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NBChibi</string>
+    <string name="login">Login</string>
+    <string name="senha">Password</string>
+    <string name="nome_usuario">Username</string>
+    <string name="msg_ok_login">Login is successful</string>
+    <string name="msg_error_login">Username or password invalid</string>
+</resources>
