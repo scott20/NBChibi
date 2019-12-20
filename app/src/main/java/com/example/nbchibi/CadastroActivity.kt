@@ -26,7 +26,7 @@ class CadastroActivity : AppCompatActivity() {
         val preco = textoPrecoCadastro.text.toString().toDouble()
         val produto = Produto(nome,desc,preco)
         val it = Intent().apply {
-            putExtra("produto", produto)
+            putExtra("produto",produto)
         }
         setResult(Activity.RESULT_OK, it)
 
